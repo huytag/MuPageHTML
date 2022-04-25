@@ -68,24 +68,6 @@
   margin-left: auto;
 }
 
-.headericon-mobile1
- {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-  position: relative;
-}
-
-.headericon-mobile2
- {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-  position: relative;
-}
-
 .menu-mobile{
   height: 100%;
   position: fixed;
