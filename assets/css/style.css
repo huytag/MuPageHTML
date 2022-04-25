@@ -73,11 +73,11 @@
   position: fixed;
   left: 0;
   top: 0;
-  width: 350px;
+  width: 265px;
   padding-top: 60px;
   background-color: rgba(255, 255, 255, 0.8);
   transition: 0.5s;
-  transform: translateX(-350px);
+  transform: translateX(-265px);
 }
 
 
@@ -87,9 +87,7 @@ ul li{
   /*text-align: center;*/
   /* padding-left: 25px; */
 }
-ul li:hover{
-  padding-left: 35px;
-}
+
 ul li a{
   display: block;
   color: #fff;
