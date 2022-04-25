@@ -1,7 +1,6 @@
 (function ($) {
 	$(function () {
 		$(document).ready(function () {
-			// hambuger();
 			$(window).scroll(function () {
 				bgscrollHeader();
 			});		
@@ -14,17 +13,5 @@
 			} else
 				elemen.removeClass("is-active");
 		}
-
-		function hambuger() {
-			if ($('.hamburger-box').length > 0) {
-				$('.hamburger-box').on('click', function (e) {
-					$(this).toggleClass("is-active");
-					$('.header-right').stop().slideToggle(200)
-					$('html').toggleClass("is-active");
-				});
-			}
-
-		}
-
 	});
 })(jQuery);
